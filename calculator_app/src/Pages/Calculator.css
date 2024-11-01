@@ -1,0 +1,105 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(121, 220, 234);
+}
+.header{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    height: 400px;
+    width: 350px;
+    background-color: #000;
+    color: aliceblue;
+    
+    border:3px solid  goldenrod;
+    box-shadow: 8px 8px 8px grey;
+}
+th{
+    background-color: #ffffffdd ;
+}
+td
+{
+    text-align: center; 
+}
+input{
+    width: 97%;
+    text-align: right;
+    height: 40px;
+    font-size: large;
+    color: #fff;
+    background-color: #000;
+    font-weight: bolder;
+    font-family: monospace;
+    border: none;
+    outline: none;
+}
+.btn
+{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(0.8);
+    border-radius: 20px;
+}
+.history{
+    height: 400px;
+    width: 300px;
+    text-align: right;
+    color:goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+    border:3px solid  goldenrod;
+    background-color: #000;
+    margin-left: 50px;
+    gap: 10px;
+    overflow-y: scroll;
+    box-shadow: 8px 8px 8px grey;;
+}
+.history button{
+    height: 28px;
+    width: 30px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+.history::-webkit-scrollbar{
+    width: 0px;
+}
+.history li{
+    list-style-type: none;
+    text-align: right;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 20px 0px 0px;
+}
+.history-btn{
+    height: 50px;
+}
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
+}
